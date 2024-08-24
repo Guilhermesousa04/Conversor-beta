@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+    <title>Conversor Comprimento</title>
+    <link rel="stylesheet" href="css/pagComprimento.css">
+</head>
+<body>
+    <a href="index.html" class="btnVoltar"> <img src="img/seta-voltar.png" alt="Voltar" /></a>
+
+    <div class="box">
+        <h1>CONVERSOR DE UNIDADES</h1>
+        <br><hr>
+        <h2>Comprimento</h2>
+
+        <div class="campos">
+            <input id="campoTexto1" class="campo1" type="text" placeholder="DIGITE O VALOR">
+
+            <div class="campo2">      
+                <select id="unidades">
+                <option value="mi">mi</option>
+                <option value="km">km</option>
+                <option value="m">m</option>
+                <option value="cm">cm</option>
+                </select> <br><br>
+            </div>
+        </div>
+
+        <button onclick="mostrarTabela()">Calcular</button>
+
+        <div class="tabela" id="tabela" style="display: none;">
+            <table>
+                <tr class="header-tab">
+                    <td>UN</td>
+                    <td>VALOR</td>
+                </tr>
+            
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #263138;
+    background: linear-gradient(to right, #263138, #ffff);
+    font-size: 1.2rem;
+    margin: 2%;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  body img {
+    width: 40px;
+  }
+  
+  body .box {
+    width: 40%;
+    height: 80%;
+    margin: 10px 5px;
+    padding-bottom: 10px;
+    background: white;
+    opacity: 80%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  body .box h1 {
+    color: #263138;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  body .box h2 {
+    color: #263138;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .box .campos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box .campos .campo1 {
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+  }
+  
+  .box .campos .campo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  select {
+    padding: 5px;
+    width: 80px;
+  }
+  
+  .box button {
+    margin-left: 37%;
+    margin-top: 20px;
+    width: 150px;
+    background-color: #263138;
+    opacity: 90%;
+    border-radius: 4px;
+    box-shadow: 0 0 1em #3e4950;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .box .tabela table {
+    border-collapse: collapse;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .box .tabela table tr td {
+    border: 1px solid #3e4950;
+    padding: 3px 35px;
+  }
+  
+  .tabela .header-tab {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #cac4c4;
+    text-align: center;
+  }
+
